@@ -15,4 +15,4 @@ total_summary <- susp_coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Varia
 lot_summary <- susp_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 
 # Deliverable 3
-t.test(x=susp_coil$PSI, mu=1500)
+t.test(susp_coil$PSI, mu=1500)

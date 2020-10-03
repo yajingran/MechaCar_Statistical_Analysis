@@ -25,8 +25,8 @@
  <br />Parameters include:
  <br />`x: our mpg dataset as vector of numbers`
  <br />`y: competitors mpg dataset as vector of numbers`
- <br />paired: `must be set to TRUE`
- <br />alternative: `tells the function if the hypothesis is one-sided or two-sided`
+ <br />`paired: must be set to TRUE`
+ <br />`alternative: tells the function if the hypothesis is one-sided or two-sided`
  
  
  
